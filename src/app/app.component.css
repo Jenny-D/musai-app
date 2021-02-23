@@ -1,0 +1,21 @@
+/*Mobile Ansicht*/
+#copyright {
+  margin-top:6.5vh;
+  text-align:center;
+  font-family:'Thasadith';
+  font-size:5vw;
+  height:6.5vh;
+  cursor:default;
+}
+
+/*Desktopansicht*/
+@media only screen and (min-width: 768px) {
+
+  app-search-field {
+    display:none;
+  }
+
+  #copyright {
+    font-size: 1.25vw;
+  }
+}

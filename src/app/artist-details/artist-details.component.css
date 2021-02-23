@@ -1,0 +1,147 @@
+.header {
+  background-color:#60a3bc;
+  overflow:hidden;
+  height:49vh;
+}
+
+.header-image {
+  border:none;
+  float:right;
+  height:49vh;
+  width:49vh;
+}
+
+.header-image img {
+  border:none;
+  height:100%;
+  width:100%;
+  opacity:0.8;
+}
+
+.artist-name {
+  font-size:5.469vw;
+  margin-top:8.771vh;
+  margin-left:4.688vw;
+  font-family:'Manrope';
+  text-shadow: 0.156vw 0.156vw #2d3436;
+  cursor:default;
+}
+
+.listeners {
+  margin-top:3.508vh;
+  margin-left:46.875vw;
+  font-size:1.875vw;
+  font-family:'Thasadith';
+  font-weight:bold;
+}
+
+.listeners span {
+  margin-right:7.813vw;
+  float:right;
+}
+
+.plays {
+  margin-top:3.508vh;
+  margin-left:46.875vw;
+  font-size:1.875vw;
+  font-family:'Thasadith';
+  font-weight:bold;
+}
+
+.plays span {
+  margin-right:7.813vw;
+  float:right;
+}
+
+#filler {
+  height:0.35vh;
+  background-color:#2d3436;
+  opacity:0.9;
+}
+
+#toptracks-heading {
+  margin-top:8.771vh;
+  margin-left:3.906vw;
+  font-size:3.125vw;
+  font-family:'Thasadith';
+  font-weight:bold;
+  cursor:default;
+}
+
+#toptracks-heading a {
+  padding:0.877vh;
+  padding-left:0.781vw;
+  padding-right:0.781vw;
+  border-radius:3px;
+  box-shadow: 0 0.781vw 0.781vw rgba(0,0,0,.3);
+}
+
+#toptracks-heading a span {
+  margin-right:1.172vw;
+  font-size:3.125vw;
+  transform:translate(0,1.403vh);
+}
+
+#toptracks {
+  margin-top:7.017vh;
+  margin-left:3.906vw;
+  font-size:2.188vw;
+  background-image:linear-gradient(90deg, #2d3436 0%, #60a3bc 50%);
+  width:92%;
+  font-family:'Thasadith';
+  border-radius:10px;
+  text-align:center;
+}
+
+#topalbums-heading {
+  margin-top:12.28vh;
+  margin-left:3.906vw;
+  font-size:3.125vw;
+  font-family:'Thasadith';
+  font-weight:bold;
+  cursor:default;
+}
+
+#topalbums-heading a {
+  padding:0.877vh;
+  padding-left:0.781vw;
+  padding-right:0.781vw;
+  border-radius:3px;
+  box-shadow: 0 0.781vw 0.781vw rgba(0,0,0,.3);
+}
+
+#topalbums-heading a span {
+  margin-right:1.172vw;
+  font-size:3.125vw;
+  transform:translate(0,1.403vh);
+}
+
+#topalbums {
+  margin-top:7.017vh;
+  margin-left:3.906vw;
+  font-size:2.188vw;
+  background-image:linear-gradient(90deg, #2d3436 0%, #60a3bc 50%);
+  width:92%;
+  font-family:'Thasadith';
+  border-radius:10px;
+  text-align:center;
+}
+
+table tr td img {
+  margin-left:1.172vw;
+  height:5vw;
+  width:5vw;
+  border-radius:5px;
+  margin-top:1.052vh;
+}
+
+table tr td a {
+  float:left;
+}
+
+table tr td a:last-of-type {
+  position:relative;
+  margin-left:23.438vw;
+  margin-right:2.344vw;
+  float:right;
+}

@@ -1,0 +1,134 @@
+/*Mobile Ansicht*/
+mat-label {
+  color:#57606f;
+}
+
+#dropdown {
+  margin-top:4vh;
+  left:50%;
+  transform:translate(-50%,0);
+}
+
+#top-artists-heading {
+  margin-left:6vw;
+  font-family:'Thasadith';
+  font-size:10vw;
+  font-weight:bold;
+  cursor:default;
+}
+
+#top-artists-heading a {
+  padding:0.887vh;
+  padding-left:2vw;
+  padding-right:2vw;
+  border-radius:3px;
+  box-shadow: 0 0.781vw 0.781vw rgba(0,0,0,.3);
+}
+
+#top-artists-heading a span {
+  margin-right:1.172vw;
+  font-size:10vw;
+  transform:translate(0,1.403vh);
+}
+
+#artists {
+  position:relative;
+  margin-top:5vh;
+}
+
+#topArtists {
+  margin-top:3vh;
+  margin-left:6vw;
+  font-family:'Thasadith';
+  font-size:6vw;
+  width:88%;
+  border-radius:5px;
+  background-image:linear-gradient(90deg, #2d3436 0%, #60a3bc 50%);
+  cursor:pointer;
+  text-align:center;
+}
+
+#topArtists, #topArtists:active, #topArtists:focus {
+  outline:none;
+}
+
+table tr td img {
+  margin-left:0.5vw;
+  height:20vw;
+  width:20vw;
+  border-radius:5px;
+  margin-top:1.052vh;
+  margin-right:2vw;
+}
+
+table tr td a:last-of-type {
+  position:relative;
+  margin-right:0.5vw;
+  float:right;
+}
+
+/*Desktopansicht*/
+@media only screen and (min-width: 768px) {
+
+#dropdown {
+  margin-top:7.017vh;
+  margin-right:5.469vw;
+  float:right;
+  left:0;
+  transform:translate(0,0);
+}
+
+#top-artists-heading {
+  position:absolute;
+  margin-top:8.771vh;
+  font-size:3.125vw;
+  margin-left:3.906vw;
+}
+
+#top-artists-heading a {
+  padding-left:0.781vw;
+  padding-right:0.781vw;
+}
+
+#top-artists-heading a span {
+  font-size:3.125vw;
+}
+
+#artists {
+  position:relative;
+  margin-top:26.315vh;
+}
+
+#topArtists {
+  margin-top:5.263vh;
+  margin-left:3.906vw;
+  font-family:'Thasadith';
+  font-size:2.188vw;
+  width:92%;
+  border-radius:10px;
+  background-image:linear-gradient(90deg, #2d3436 0%, #60a3bc 50%);
+  cursor:pointer;
+  text-align:center;
+}
+
+table tr td img {
+  margin-left:1.172vw;
+  height:5vw;
+  width:5vw;
+  border-radius:5px;
+  margin-top:1.052vh;
+}
+
+
+table tr td a {
+  float:left;
+}
+
+table tr td a:last-of-type {
+  position:relative;
+  margin-left:23.438vw;
+  margin-right:2.344vw;
+  float:right;
+}
+
+}

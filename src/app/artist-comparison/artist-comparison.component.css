@@ -1,0 +1,37 @@
+/*Mobile Ansicht*/
+div {
+  text-align:center;
+  margin-top:20vh;
+  cursor:default;
+}
+
+.material-icons {
+  font-size:12vw;
+}
+
+p {
+  margin-top:4vh;
+  padding-bottom:26.315vh;
+  text-align:center;
+  font-family:'Thasadith';
+  font-size:5vw;
+  cursor:default;
+}
+
+/*Desktopansicht*/
+@media only screen and (min-width: 768px) {
+
+div {
+  margin-top:29.824vh;
+}
+
+.material-icons {
+  font-size:4.688vw;
+}
+
+p {
+  margin-top:5.263vh;
+  font-size:1.563vw;
+}
+
+}

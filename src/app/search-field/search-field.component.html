@@ -1,0 +1,11 @@
+<label for="search-box"></label>
+<div id="searchbox"><input id="search-box" type="text" name="searchStr" [(ngModel)]="searchStr" (keyup)="search()" placeholder="Search artist..." /></div>
+
+<div id="searchresults"><ul class="search-result">
+  <li *ngFor="let result of results">
+    <a [routerLink]="['/artist', result]" (click)="reset()">
+      {{result}}
+    </a>
+  </li>
+</ul>
+</div>

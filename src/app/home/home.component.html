@@ -1,0 +1,20 @@
+<mat-form-field id="dropdown" appearance="fill">
+  <mat-label>Select a country</mat-label>
+  <mat-select [(value)]="selectedCountry">
+    <mat-option value="Germany" [routerLink]="['/Germany']">Germany (GER)</mat-option>
+    <mat-option value="Spain" [routerLink]="['/Spain']">Spain (ESP)</mat-option>
+    <mat-option value="China" [routerLink]="['/China']">China (CHN)</mat-option>
+  </mat-select>
+</mat-form-field>
+
+<div id="top-artists-heading"><a><span class="material-icons">stars</span>Top Artists</a></div>
+
+<div id="artists">
+<table *ngFor="let topartist of topartists" id="topArtists" [routerLink]="['/artist', topartist.name]">
+  <tr>
+    <td><img src="{{ topartist.image }}" /></td>
+    <td><a>{{ topartist.name }}</a></td>
+    <td><a>{{ topartist.listeners }}</a></td>
+  </tr>
+</table>
+</div>

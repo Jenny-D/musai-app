@@ -1,0 +1,31 @@
+<div class="header">
+  <div class="header-background">
+    <div class="header-image"><img src="{{ artist.image }}" /></div>
+  </div>
+  <div class="artist-name">{{ artist.name }}</div>
+  <div class="listeners">Listeners: <span> {{ artist.listeners | number }}</span></div>
+  <div class="plays">Plays: <span> {{ artist.playcount | number }}</span></div>
+</div>
+<div id="filler"></div>
+
+<div class="toptracks">
+  <div id="toptracks-heading"><a><span class="material-icons">library_music</span>Top Tracks</a></div>
+  <table *ngFor="let track of tracks" id="toptracks">
+    <tr>
+      <td><img src="{{ track.image }}" /></td>
+      <td><a>{{ track.name }}</a></td>
+      <td><a>{{ track.playcount | number }}</a></td>
+    </tr>
+  </table>
+</div>
+
+<div class="topalbums">
+  <div id="topalbums-heading"><a><span class="material-icons">album</span>Top Albums</a></div>
+  <table *ngFor="let album of albums" id="topalbums">
+    <tr>
+      <td><img src="{{ album.image }}" /></td>
+      <td><a>{{ album.name }}</a></td>
+      <td><a>{{ album.playcount | number }}</a></td>
+    </tr>
+  </table>
+</div>
